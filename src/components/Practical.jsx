@@ -15,7 +15,8 @@ export default function Practical(){
     function submitData(event){
         event.preventDefault()
         formRef.current.classList.add('hidden')
-        dataDisplayRef.current.classList.remove('hidden')
+        dataDisplayRef.current.classList.remove('hidden') 
+        // yo
     }
 
     function editForm(){
